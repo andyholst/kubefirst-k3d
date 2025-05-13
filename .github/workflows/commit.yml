@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  test:
+  scan-files-for-security-issues:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
